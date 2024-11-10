@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertanyaan Maag</title>
+    <link rel="stylesheet" href="pertanyaan_maag.css"> <!-- Menghubungkan file CSS -->
+</head>
+<body>
+    <h2>PERTANYAAN</h2>
+    <form action="maag.html" method="get"> <!-- Arahkan ke halaman penjelasan maag -->
+
+        <!-- pertanyaan -->
+        <div class="question-container">
+            <label for="pertanyaan">Apakah anda merasa pusing?:</label><br>
+            <input type="radio" id="Ya" name="pertanyaan" value="Ya" required>
+            <label for="Ya">Ya</label>
+            <input type="radio" id="Tidak" name="pertanyaan" value="Tidak">
+            <label for="Tidak">Tidak</label>
+        </div>
+
+        <!-- pertanyaan 1 -->
+        <div class="question-container">
+            <label for="pertanyaan1">Apakah anda merasa mual?:</label><br>
+            <input type="radio" id="Ya" name="pertanyaan1" value="Ya" required>
+            <label for="Ya">Ya</label>
+            <input type="radio" id="Tidak" name="pertanyaan1" value="Tidak">
+            <label for="Tidak">Tidak</label>
+        </div>
+
+        <!-- pertanyaan 2 -->
+        <div class="question-container">
+            <label for="pertanyaan2">Apakah anda merasa mual?:</label><br>
+            <input type="radio" id="Ya" name="pertanyaan2" value="Ya" required>
+            <label for="Ya">Ya</label>
+            <input type="radio" id="Tidak" name="pertanyaan2" value="Tidak">
+            <label for="Tidak">Tidak</label>
+        </div>
+
+        <!-- Tombol Kirim -->
+        <button type="submit">Kirim Jawaban</button>
+    </form>
+</body>
+</html>

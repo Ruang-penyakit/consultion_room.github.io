@@ -1,0 +1,160 @@
+/* Reset default margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Judul utama */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Heading kecil */
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraf umum */
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Daftar berbentuk bullet */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Elemen list (li) */
+ul li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Penekanan teks */
+strong {
+    font-weight: bold;
+    color: #2E7D32; /* Hijau untuk penekanan */
+}
+
+em {
+    font-style: italic;
+    color: #888; /* Warna abu-abu untuk kata yang diitalic */
+}
+
+/* Styling untuk link jika ada */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk tabel jika ada (misalnya untuk data lebih lanjut) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styling untuk catatan penting */
+h3 + p {
+    background-color: #FFEBEE;
+    padding: 10px;
+    border-left: 5px solid #E57373;
+    color: #E57373;
+}
+.img1 {
+    width: 35%; /* Menentukan gambar untuk mengambil 80% dari lebar container */
+    height: auto; /* Menjaga proporsi gambar */
+    display: block;
+    margin: 20px auto; /* Gambar ditengah dan ada jarak atas/bawah */
+    border-radius: 8px; /* Menambahkan border-radius agar gambar lebih halus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan di sekitar gambar */
+}
+
+.img2 {
+    width: 35%; /* Menentukan lebar gambar agar lebih kecil */
+    height: auto; /* Menjaga proporsi gambar */
+    float: right; /* Menempatkan gambar di sebelah kiri teks */
+    margin: 0 20px 20px 0; /* Memberi jarak antara gambar dengan teks */
+    border-radius: 8px; /* Membuat sudut gambar lebih lembut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan di sekitar gambar */
+}
+
+.img3 {
+    width: 35%; /* Menentukan lebar gambar agar lebih kecil */
+    height: auto; /* Menjaga proporsi gambar */
+    float: left; /* Menempatkan gambar di sebelah kiri teks */
+    margin: 0 20px 20px 0; /* Memberi jarak antara gambar dengan teks */
+    border-radius: 8px; /* Membuat sudut gambar lebih lembut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan di sekitar gambar */
+}
+
+.img4 {
+    width: 35%; /* Menentukan lebar gambar agar lebih kecil */
+    height: auto; /* Menjaga proporsi gambar */
+    float: left; /* Menempatkan gambar di sebelah kiri teks */
+    margin: 0 20px 20px 0; /* Memberi jarak antara gambar dengan teks */
+    border-radius: 8px; /* Membuat sudut gambar lebih lembut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan di sekitar gambar */
+}
+
+.img5 {
+    width: 30%; /* Menentukan lebar gambar agar lebih kecil */
+    height: auto; /* Menjaga proporsi gambar */
+    float: right; /* Menempatkan gambar di sebelah kiri teks */
+    margin: 0 20px 20px 0; /* Memberi jarak antara gambar dengan teks */
+    border-radius: 8px; /* Membuat sudut gambar lebih lembut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan di sekitar gambar */
+}
+
+/* CSS untuk gaya tombol */
+.video-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Warna tombol */
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.video-button:hover {
+    background-color: #45a049;
+}

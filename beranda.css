@@ -1,0 +1,56 @@
+/* Gaya umum halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Gaya judul utama */
+h1 {
+    color: #3b5998;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Gaya subjudul */
+h2 {
+    color: #4b9cd3;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Daftar kelompok */
+.kelompok {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e7f3fe;
+    border-left: 4px solid #4b9cd3;
+    border-radius: 5px;
+}
+
+/* Gaya daftar tautan */
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3b5998;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #3b5998;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #3b5998;
+    color: white;
+}
